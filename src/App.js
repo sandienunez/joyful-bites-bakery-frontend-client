@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
        <h3>Joyful Bites Bakery</h3>
-       <ul>{this.props.loading ? <h3>Loading...</h3>: items } </ul>
+       <ul>{this.props.loading ? <h3>Just a moment...</h3>: items } </ul>
         </header>
       </div>
     );
