@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+
 
 const links = {
     width: '100px',
@@ -23,7 +24,16 @@ const Navigation = () => {
             > Home
             </NavLink>
             <NavLink
-                to="/orders"
+                to="/neworder"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Make Order
+            </NavLink>
+            <NavLink
+                to="/lists"
                 exact
                 style={links}
                 activeStyle={{
@@ -32,13 +42,31 @@ const Navigation = () => {
             > Orders
             </NavLink>
             <NavLink
-                to="/items"
+                to="/menuitems"
                 exact
                 style={links}
                 activeStyle={{
                     background: 'pink'
                 }}
             > Menu Items
+            </NavLink>
+            <NavLink
+                to="/mission"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Our Mission
+            </NavLink>
+            <NavLink
+                to="/ourstory"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Our Story
             </NavLink>
         </div>
     )

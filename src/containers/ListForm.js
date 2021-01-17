@@ -46,16 +46,18 @@ class ListForm extends Component {
                 Client name:
                     <input type="text" name="client_name" value={this.state.client_name} onChange={this.handleChange}/>
                     <b><p></p></b>
-                    Date Order Made 
+                    Date Order Made: 
                     <input type="text" name="date_order_made" value={this.state.date_order_made} onChange={this.handleChange}/>
                     <b><p></p></b>
-                    Quantity
+                    Quantity:
                     <input type="text" name="quantity" value={this.state.quantity} onChange={this.handleChange}/>
                     <b><p></p></b>
-                   Pick a flavor:
+                   Pick your Cookie flavor:
           <select value={this.state.product_name} name="product_name" onChange={this.handleChange}>
-            <option value="Almond Chocolate Chip">Almond Chocolate Chip</option>
+            <option value="Almond Coconut">Almond Coconut</option>
             <option value="Chocolate Chip"> Chocolate Chip</option>
+            <option value="Blueberry Lemon"> Blueberry Lemon</option>
+
 
           </select>
           <b><p></p></b>

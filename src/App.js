@@ -4,10 +4,18 @@ import JBlogo from './JBlogo.png';
 import cookie from './cookie.png';
 import { connect } from 'react-redux' 
 import { getLists, deleteList } from './actions/lists'
-import ListForm from './containers/ListForm';
-import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom'
-import Home from './components/Home'
-import Navigation from './components/Navigation'
+
+import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import DisplayForm from './components/DisplayForm';
+import Mission from './components/Mission';
+import Orders from './components/Orders';
+import OurStory from './components/OurStory';
+import MenuItems from './components/MenuItems';
+// import ListFormContainer from './containers/ListFormContainer'
+
+
 
 class App extends Component {
   componentDidMount(){
@@ -33,30 +41,34 @@ class App extends Component {
 
                 <label>Cookie order: {list.product_name}</label> 
                 <label>Quantity: {list.quantity}</label> 
-                <label>Total Amount: {list.total_amount}</label> 
-
                   <button id={list.id} onClick={this.handleClick}>Delete</button>
                   </li>
       })
       // debugger
 
     return (
+      
       <Router>
       <div className="App">
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/neworder" component={DisplayForm} />
+          <Route exact path="/menuitems" component={MenuItems} />
+          <Route exact path="/mission" component={Mission} />
+          <Route exact path="/lists" component={() => <Orders lists={this.props.lists}/>} />
+          <Route exact path="/ourstory" component={OurStory} />
+          
+
         </Switch>
       </div>
   
       <div className="App">
-      <h2>Make an Order</h2>
-       <ListForm />
+      
         <img src={JBlogo} alt="JB logo" height={900} width={1200}/>
         <header className="App-header">
         <h3>Eating healthy never felt so good!</h3>
         <img src={cookie} alt="Cookie" height={900} width={600}/>
-        <label>Order Summary:</label>
        <ul>{this.props.loading ? <h3>Just a moment...</h3>: lists } </ul>
         </header>
       </div>
