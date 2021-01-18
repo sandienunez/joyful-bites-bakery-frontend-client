@@ -9,14 +9,13 @@ class ListForm extends Component {
         date_order_made: "",
         product_name: "Almond Chocolate Chip",
         quantity: "",
-        total_amount: ""
     };
       
 
       handleSubmit = (event) => {
         event.preventDefault()
         // debugger 
-        const list = { client_name: this.state.client_name, date_order_made: this.state.date_order_made, quantity: this.state.quantity, product_name: this.state.product_name, total_amount: this.state.total_amount}
+        const list = { client_name: this.state.client_name, date_order_made: this.state.date_order_made, quantity: this.state.quantity, product_name: this.state.product_name}
         // debugger
 
         this.props.addList(list)
@@ -26,7 +25,7 @@ class ListForm extends Component {
             date_order_made: "",
             product_name: "",
             quantity: "",
-            total_amount: ""
+
         })
 
     }

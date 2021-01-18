@@ -46,4 +46,3 @@ export const deleteList = (id) => {
         .then(() => dispatch({ type: "LIST_DELETED", payload: id }))
     }
 }
-

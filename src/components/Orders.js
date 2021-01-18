@@ -37,5 +37,3 @@ const handleClick = (event) => {
 }
 
 export default Orders
-
-

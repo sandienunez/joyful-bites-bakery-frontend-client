@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (state = {lists: [], loading: false}, action) => {
     switch(action.type){
         case("LOADING_LISTS"):
@@ -10,7 +11,7 @@ export default (state = {lists: [], loading: false}, action) => {
         case ("LIST_ADDED"):
             return { ...state, loading: false, lists: [...state.lists, action.payload] }
         case ("DELETING_LIST"):
-            return { ...state, loading: true }
+            return { ...state, loading: true, lists: action.payload }
         case ("LIST_DELETED"):
             return { ...state, 
                     loading: false, 
@@ -19,3 +20,6 @@ export default (state = {lists: [], loading: false}, action) => {
             return state
     }    
 }
+
+
+
