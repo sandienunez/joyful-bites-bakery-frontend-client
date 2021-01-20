@@ -32,7 +32,7 @@ class App extends Component {
     render(){
       console.log("hi props", this.props)
       // debugger
-      const lists = this.props.lists.map((list, i) => {
+      const lists = this.props.lists && this.props.lists.map((list, i) => {
          
         return <li key={i}>{list.client_name}
                   <b><p></p></b>

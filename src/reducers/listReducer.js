@@ -11,11 +11,11 @@ export default (state = {lists: [], loading: false}, action) => {
         case ("LIST_ADDED"):
             return { ...state, loading: false, lists: [...state.lists, action.payload] }
         case ("DELETING_LIST"):
-            return { ...state, loading: true, lists: action.payload }
+            return { ...state, loading: true }
         case ("LIST_DELETED"):
             return { ...state, 
                     loading: false, 
-                    lists: state.lists.filter(list => list.id != action.payload) }
+                    lists: state.lists.filter(list => parseInt(list.id) !== parseInt(action.payload)) }
         default:
             return state
     }    

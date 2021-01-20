@@ -7,13 +7,14 @@ class ListForm extends Component {
     state = {
         client_name: "",
         date_order_made: "",
-        product_name: "Almond Chocolate Chip",
+        product_name: "Select Cookie Type",
         quantity: "",
     };
       
 
       handleSubmit = (event) => {
         event.preventDefault()
+   
         // debugger 
         const list = { client_name: this.state.client_name, date_order_made: this.state.date_order_made, quantity: this.state.quantity, product_name: this.state.product_name}
         // debugger
@@ -53,6 +54,7 @@ class ListForm extends Component {
                     <b><p></p></b>
                    Pick your Cookie flavor:
           <select value={this.state.product_name} name="product_name" onChange={this.handleChange}>
+          <option value="Select Cookie Type">Select Cookie Type</option>
             <option value="Almond Coconut">Almond Coconut</option>
             <option value="Chocolate Chip"> Chocolate Chip</option>
             <option value="Blueberry Lemon"> Blueberry Lemon</option>
@@ -60,7 +62,7 @@ class ListForm extends Component {
 
           </select>
           <b><p></p></b>
-                    <input type="submit" value="Place Order"/>
+                    <input type="submit" value="Place Order" disabled={this.state.product_name === "Select Cookie Type" ? true: false }/>
                     </label>
                 </form>
                 
