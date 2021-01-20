@@ -67,7 +67,7 @@ class App extends Component {
       
         <img src={JBlogo} alt="JB logo" height={900} width={1200}/>
         <header className="App-header">
-        <h3>Eating healthy never felt so good!</h3>
+        <h1>Eating healthy never felt so good!</h1>
         <img src={cookie} alt="Cookie" height={900} width={600}/>
        <ul>{this.props.loading ? <h3>Just a moment...</h3>: lists } </ul>
         </header>

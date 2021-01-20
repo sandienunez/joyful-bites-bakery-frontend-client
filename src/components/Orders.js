@@ -22,7 +22,9 @@ class Orders extends Component {
             .lists
             .map((list, i ) => {
                 console.log(list, "hi")
-                return <div>
+
+                return <div style={{ border: "4px solid turquoise", width: "100%" }} 
+                >
                 <b><p></p></b>
                 <b><p></p></b>
                 <label>Client Name: </label>

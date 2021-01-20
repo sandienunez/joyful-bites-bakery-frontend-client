@@ -27,11 +27,6 @@ export const addList = (list) => {
             // debugger
             dispatch({ type: "LIST_ADDED", payload: {...lists, items:[{product_name: list.product_name}],list_items: [{quantity: list.quantity}]} })}) 
             //format list object same way we get back from api 
-            // setTimeout(() => {
-            // getLists() 
-            // }, 1000
-            // )
-            // })
 
     }
 }
