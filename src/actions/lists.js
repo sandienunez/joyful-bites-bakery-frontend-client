@@ -23,10 +23,7 @@ export const addList = (list) => {
             }
         })
         .then(res => res.json())
-        .then(lists => {
-            // debugger
-            dispatch({ type: "LIST_ADDED", payload: {...lists, items:[{product_name: list.product_name}],list_items: [{quantity: list.quantity}]} })}) 
-            //format list object same way we get back from api 
+        .then(list => dispatch({ type: "LIST_ADDED", payload: list }))
 
     }
 }

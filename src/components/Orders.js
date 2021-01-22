@@ -4,7 +4,7 @@ import {getLists, deleteList} from '../actions/lists'
 
 class Orders extends Component {
     // componentDidMount() {
-          // this.props.getLists()
+    //       this.props.getLists()
     // }
 
     handleClick = (event) => {
