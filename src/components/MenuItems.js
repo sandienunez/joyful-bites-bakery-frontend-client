@@ -62,5 +62,3 @@ class MenuItems extends Component {
 
 export default MenuItems;
 
-// <button> Cupcakes </button> <button> Cakes </button> <button> Breads
-// </button> <button> Energy Balls/Protein Bites </button>

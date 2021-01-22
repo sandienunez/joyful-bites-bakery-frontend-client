@@ -55,9 +55,9 @@ class ListForm extends Component {
                    Pick your Cookie flavor:
           <select value={this.state.product_name} name="product_name" onChange={this.handleChange}>
           <option value="Select Cookie Type">Select Cookie Type</option>
-            <option value="Almond Coconut">Almond Coconut</option>
-            <option value="Chocolate Chip"> Chocolate Chip</option>
-            <option value="Blueberry Lemon"> Blueberry Lemon</option>
+            <option value="Almond Coconut">Almond Coconut $3.25</option>
+            <option value="Chocolate Chip"> Chocolate Chip $3.00</option>
+            <option value="Blueberry Lemon"> Blueberry Lemon $3.50</option>
 
 
           </select>
