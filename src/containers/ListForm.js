@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addList } from '../actions/lists' 
+import '../ListForm.css';
+
 
 
 class ListForm extends Component {
@@ -41,10 +43,12 @@ class ListForm extends Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.handleSubmit}>
+                <header className="ItemForm-header"></header>
+                <form onSubmit={this.handleSubmit} className="ItemForm">
+                <h1>Joyful Bites Bakery Order</h1>
                 <label>
                 Client name:
-                    <input type="text" name="client_name" value={this.state.client_name} onChange={this.handleChange}/>
+                    <input type="text" name="client_name" value={this.state.client_name} onChange={this.handleChange}  />
                     <b><p></p></b>
                     Date Order Made: 
                     <input type="text" name="date_order_made" value={this.state.date_order_made} onChange={this.handleChange}/>
@@ -52,7 +56,7 @@ class ListForm extends Component {
                     Quantity:
                     <input type="text" name="quantity" value={this.state.quantity} onChange={this.handleChange}/>
                     <b><p></p></b>
-                   Pick your Cookie flavor:
+                   Choose Cookie flavor:
           <select value={this.state.product_name} name="product_name" onChange={this.handleChange}>
           <option value="Select Cookie Type">Select Cookie Type</option>
             <option value="Almond Coconut">Almond Coconut $3.25</option>
@@ -62,7 +66,7 @@ class ListForm extends Component {
 
           </select>
           <b><p></p></b>
-                    <input type="submit" value="Place Order" disabled={this.state.product_name === "Select Cookie Type" ? true: false }/>
+                    <input type="submit" value="Place Order" className="button" disabled={this.state.product_name === "Select Cookie Type" ? true: false }/>
                     </label>
                 </form>
                 

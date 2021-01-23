@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-
+import '../Orders.css';
 
 const links = {
     width: '100px',
@@ -13,7 +13,11 @@ const links = {
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="Orders" style={{flex: 1, flexDirection: 'row'}} >
+      
+         <ul class="navbar-nav flex-row"></ul>
+        <p></p>
+        <p></p>
             <NavLink
                 to="/"
                 exact
@@ -24,13 +28,22 @@ const Navigation = () => {
             > Home
             </NavLink>
             <NavLink
+                to="/menuitems"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Menu
+            </NavLink>
+            <NavLink
                 to="/neworder"
                 exact
                 style={links}
                 activeStyle={{
                     background: 'pink'
                 }}
-            > Make Order
+            > Order
             </NavLink>
             <NavLink
                 to="/lists"
@@ -39,16 +52,7 @@ const Navigation = () => {
                 activeStyle={{
                     background: 'pink'
                 }}
-            > Orders
-            </NavLink>
-            <NavLink
-                to="/menuitems"
-                exact
-                style={links}
-                activeStyle={{
-                    background: 'pink'
-                }}
-            > Menu Items
+            > Client Orders
             </NavLink>
             <NavLink
                 to="/mission"
@@ -57,7 +61,7 @@ const Navigation = () => {
                 activeStyle={{
                     background: 'pink'
                 }}
-            > Our Mission
+            > Mission
             </NavLink>
             <NavLink
                 to="/ourstory"
@@ -67,6 +71,24 @@ const Navigation = () => {
                     background: 'pink'
                 }}
             > Our Story
+            </NavLink>
+            <NavLink
+                to="/ingredients"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Whole
+            </NavLink>
+            <NavLink
+                to="/contactus"
+                exact
+                style={links}
+                activeStyle={{
+                    background: 'pink'
+                }}
+            > Contact
             </NavLink>
         </div>
     )

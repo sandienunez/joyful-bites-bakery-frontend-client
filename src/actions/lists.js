@@ -40,7 +40,6 @@ export const deleteList = (id) => {
                 "Accept": 'application/json'
             }
         })
-        .then()
         .then(() => dispatch({ type: "LIST_DELETED", payload: id }))
     }
 }

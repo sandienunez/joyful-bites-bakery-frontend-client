@@ -2,10 +2,8 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getLists, deleteList} from '../actions/lists'
 
+
 class Orders extends Component {
-    // componentDidMount() {
-    //       this.props.getLists()
-    // }
 
     handleClick = (event) => {
         event.preventDefault()
@@ -17,23 +15,22 @@ class Orders extends Component {
     render() {
         console.log("hi props", this.props)
         // debugger
-        const lists = this.props.lists && this
+        const lists = this
             .props
             .lists
             .map((list, i ) => {
                 console.log(list, "hi")
 
-                return <div style={{ border: "4px solid turquoise", width: "100%" }} 
+                return <div className = "Orders"style={{ border: "4px solid turquoise", width: "100%",
+                float: 'center',
+                textAlign: 'center'
+               }} 
                 >
-                <b><p></p></b>
-                <b><p></p></b>
+                <p></p>
                 <label>Client Name: </label>
                 <li key={i}> {list.client_name}                    
-
                     <b><p></p></b>
                   <label>Order Date: {list.date_order_made}</label> 
-
-                  
                   
                   {list
                         .list_items
@@ -41,13 +38,10 @@ class Orders extends Component {
                             return (
                                 <div>
                                     <label>Cookie order: {list.items[i].product_name}</label>
-                                    <b>
-                                        <p></p>
-                                    </b>
+                                    <p></p>
+
                                     <label>Quantity: {item.quantity}</label>
-                                    <b>
-                                        <p></p>
-                                    </b>
+                                    <p></p>
                                     <button id={list.id} onClick={this.handleClick}>Delete</button>
                                 </div>
                              
