@@ -1,6 +1,6 @@
 # Joyful Bites Bakery 
 
-![JBlogo](./JBlogo.png)
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
 
 Welcome to the Joyful Bites Bakery App! This is my final project for the Flatiron School. It allows clients to create and save bakery orders, as well as delete any order that was previously made. This repository contains the React/Redux frontend of the project.
 
