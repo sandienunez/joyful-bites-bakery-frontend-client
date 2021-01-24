@@ -6,18 +6,20 @@ Welcome to the Joyful Bites Bakery App! This is my final project for the Flatiro
 
 ## Backend
 
-The backend for the Joyful Bites Bakery App can be found [here](https://github.com/sandienunez/joyful-bites-bakery-backend)
+The backend for the Joyful Bites Bakery App can be found [here](https://github.com/sandienunez/joyful-bites-bakery-backend).
 
 ## Inspiration 
 
-My objective was to create an incredibly healthy, sustainable and whole bakery with treats that make people feel good. As a person who has suffered  from dairy and gluten allergies, I know first hand the difficulty of finding delicious deserts that do not make you feel sick, sluggish, bad about yourself, tired and leave you with an awful sugar crash. When my father was diagnosed with pre-diabetes and extra high cholesterol, I set out on a mission to create the most delicious baked goods that are not only nutritious, dairy-free, gluten-free , anti-inflammatory and low-glycemic but give you the energy you need to do the work God has called you to do. I firmly believe that you do not have to sacrifice "yummy-in-my-tummy" moments or give up your sweet tooth cravings. Everyone deserves the right to enjoy treats, cookies, cakes, fresh-made breads and deserts. Baked goods are meant to make you smile, meant to be shared with the special people in our lives and help make our family/friend celebrations sweeter. Joyful Bites encompasses what America's heart is a lot about, helping thy neighbor and serving others. 
+My objective was to create an incredibly healthy, sustainable and whole bakery with treats that make people feel good. As a person who has suffered  from dairy and gluten allergies, I know first hand the difficulty of finding delicious deserts that do not make you feel sick, sluggish, bad about yourself, tired and leave you with an awful sugar crash. When my father was diagnosed with pre-diabetes and extra high cholesterol, I set out on a mission to create the most delicious baked goods that are not only nutritious, dairy-free, gluten-free , anti-inflammatory and low-glycemic but give you the energy you need to do the work God has called you to do. 
 
-## Demo, Blog Post, and Mock Assessment
+You do not have to sacrifice "yummy-in-my-tummy" moments or give up your sweet tooth cravings. Everyone deserves the right to enjoy treats, cookies, cakes, fresh-made breads and deserts. Baked goods are meant to make you smile, meant to be shared with the special people in our lives and help make our family/friend celebrations sweeter. Joyful Bites encompasses what America's heart is a lot about, helping your neighbor and serving others. That's why for every one treat you buy, one is given to someone in need. 
+
+## Demo & Blog Post
 
 * [Click Here](https://www.youtube.com/watch?v=u2vA5oPlYN0&feature=youtu.be) to view a demo of the Joyful Bites Bakery App.
 * to read my blog post about the Joyful Bites Bakery app.
 
-## Installing and Starting Up the Joyful Bites Bakery App
+## Installation 
 
 Follow these steps to start up the Joyful Bites Bakery app:
 
@@ -58,7 +60,7 @@ Once the app loads, you can do any of the following:
 ## Built With
 
 * Ruby on Rails
-* Java Script
+* JavaScript
 * React
 * Redux
 * Thunk 
