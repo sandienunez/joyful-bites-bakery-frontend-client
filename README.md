@@ -45,24 +45,21 @@ Once the app loads, you can do any of the following:
 
 <img width="1384" alt="Screen Shot 2021-01-24 at 1 14 23 PM" src="https://user-images.githubusercontent.com/61069416/105639501-b443dc80-5e46-11eb-866e-bbe3471cb643.png"> 
 
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
 
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+<img width="1354" alt="Screen Shot 2021-01-24 at 1 14 57 PM" src="https://user-images.githubusercontent.com/61069416/105640100-24a02d00-5e4a-11eb-9c2d-b8e89ccb3d87.png">
+<img width="1344" alt="Screen Shot 2021-01-24 at 1 15 13 PM" src="https://user-images.githubusercontent.com/61069416/105640101-25d15a00-5e4a-11eb-9ea6-2650cd0c0bd9.png">
+<img width="1346" alt="Screen Shot 2021-01-24 at 1 15 29 PM" src="https://user-images.githubusercontent.com/61069416/105640104-2833b400-5e4a-11eb-9c32-6bc978db701b.png">
+<img width="1245" alt="Screen Shot 2021-01-24 at 1 15 57 PM" src="https://user-images.githubusercontent.com/61069416/105640105-2964e100-5e4a-11eb-9662-42243be88a5c.png">
+<img width="1342" alt="Screen Shot 2021-01-24 at 1 16 07 PM" src="https://user-images.githubusercontent.com/61069416/105640108-2d90fe80-5e4a-11eb-8f70-d5ec3cebf0d6.png">
+<img width="1277" alt="Screen Shot 2021-01-24 at 1 16 15 PM" src="https://user-images.githubusercontent.com/61069416/105640110-2e299500-5e4a-11eb-9227-f95c071bb64e.png">
+<img width="899" alt="Screen Shot 2021-01-24 at 1 16 19 PM" src="https://user-images.githubusercontent.com/61069416/105640111-308bef00-5e4a-11eb-8d86-d3b04b1d2f48.png">
+<img width="1336" alt="Screen Shot 2021-01-24 at 1 16 30 PM" src="https://user-images.githubusercontent.com/61069416/105640115-32ee4900-5e4a-11eb-8d56-c34c817289dd.png">
+<img width="1352" alt="Screen Shot 2021-01-24 at 1 16 42 PM" src="https://user-images.githubusercontent.com/61069416/105640117-341f7600-5e4a-11eb-8fde-fed4d435c51e.png">
+<img width="1358" alt="Screen Shot 2021-01-24 at 1 16 50 PM" src="https://user-images.githubusercontent.com/61069416/105640118-35e93980-5e4a-11eb-9226-078c9fecd787.png">
+<img width="1369" alt="Screen Shot 2021-01-24 at 1 16 58 PM" src="https://user-images.githubusercontent.com/61069416/105640120-384b9380-5e4a-11eb-82c9-8fbbd5ffa011.png">
+<img width="1343" alt="Screen Shot 2021-01-24 at 1 17 16 PM" src="https://user-images.githubusercontent.com/61069416/105640123-3a155700-5e4a-11eb-908d-f90342328afc.png">
+<img width="1344" alt="Screen Shot 2021-01-24 at 1 17 23 PM" src="https://user-images.githubusercontent.com/61069416/105640124-3b468400-5e4a-11eb-94a3-d46588defecf.png">
 
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
-
-
-<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
 ## Concepts Utilized in app:
 
 * ES6 syntax/higher-level methods => arrow functions, map, filter, spread operator.
