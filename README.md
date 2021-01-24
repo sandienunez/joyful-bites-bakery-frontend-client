@@ -15,7 +15,7 @@ My objective was to create an incredibly healthy, sustainable and whole bakery w
 ## Demo, Blog Post, and Mock Assessment
 
 * [Click Here](https://www.youtube.com/watch?v=u2vA5oPlYN0&feature=youtu.be) to view a demo of the Joyful Bites Bakery App.
-* [Click Here](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project) to read my blog post about the Beach Journal.
+* to read my blog post about the Joyful Bites Bakery app.
 
 ## Installing and Starting Up the Joyful Bites Bakery App
 
