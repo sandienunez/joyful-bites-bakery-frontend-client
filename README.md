@@ -42,6 +42,27 @@ Once the app loads, you can do any of the following:
 2. Once you submit the form, you can click on the "Client Orders" page to see your full client order data displayed. 
 3. You also have the option of deleting any of your client orders; just click on its "Delete" button.
 
+
+<img width="1384" alt="Screen Shot 2021-01-24 at 1 14 23 PM" src="https://user-images.githubusercontent.com/61069416/105639501-b443dc80-5e46-11eb-866e-bbe3471cb643.png"> 
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
+
+
+<img width="639" alt="JBlogo" src="https://user-images.githubusercontent.com/61069416/105638769-a7bd8500-5e42-11eb-9736-cb12b9273724.jpg">
 ## Concepts Utilized in app:
 
 * ES6 syntax/higher-level methods => arrow functions, map, filter, spread operator.
