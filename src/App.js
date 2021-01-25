@@ -18,9 +18,6 @@ import ContactUs from './components/ContactUs';
 import Ingredients from './components/Ingredients';
 
 
-// import ListFormContainer from './containers/ListFormContainer'
-
-
 
 class App extends Component {
   componentDidMount(){
@@ -87,7 +84,6 @@ class App extends Component {
 
 const mapStateToProps = state => {
   // debugger 
-  //connects your db to parent to child component 
   return {
     lists: state.listReducer.lists,
     loading: state.listReducer.loading

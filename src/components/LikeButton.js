@@ -1,4 +1,3 @@
-// import React, { Component } from 'react';
 import '../LikeButton.css';
 import React, { useState } from "react";
  
