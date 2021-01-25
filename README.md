@@ -17,7 +17,7 @@ You do not have to sacrifice "yummy-in-my-tummy" moments or give up your sweet t
 ## Demo & Blog Post
 
 * [Click Here](https://www.youtube.com/watch?v=u2vA5oPlYN0&feature=youtu.be) to view a demo of the Joyful Bites Bakery App.
-* to read my blog post about the Joyful Bites Bakery app.
+* [Click Here](https://sandienunez.github.io/joyful_bites_bakery_app) to read my blog post about the Joyful Bites Bakery app.
 
 ## Installation 
 
