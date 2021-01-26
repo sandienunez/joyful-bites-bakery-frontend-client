@@ -1,5 +1,5 @@
 import React from 'react';
-import ListForm from '../containers/ListForm';
+import ListForm from '../components/ListForm';
 
 const DisplayForm = () => {
     return (

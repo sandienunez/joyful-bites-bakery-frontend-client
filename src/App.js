@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
-import DisplayForm from './components/DisplayForm';
+import DisplayForm from './containers/DisplayForm';
 import Mission from './components/Mission';
 import Orders from './components/Orders';
 import OurStory from './components/OurStory';
@@ -61,6 +61,7 @@ class App extends Component {
           <Route exact path="/contactus" component={ContactUs} />
         </Switch>
       </div>
+
       <div className="ItemForm">
       <h3>Click on the logo to Order! </h3>
 
