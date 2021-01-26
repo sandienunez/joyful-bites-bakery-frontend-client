@@ -10,10 +10,10 @@ import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
 import DisplayForm from './containers/DisplayForm';
+import DisplayMenu from './containers/DisplayMenu';
 import Mission from './components/Mission';
 import Orders from './components/Orders';
 import OurStory from './components/OurStory';
-import MenuItems from './components/MenuItems';
 import ContactUs from './components/ContactUs';
 import Ingredients from './components/Ingredients';
 
@@ -52,7 +52,7 @@ class App extends Component {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/menuitems" component={MenuItems} />
+          <Route exact path="/menuitems" component={DisplayMenu} />
           <Route exact path="/neworder" component={DisplayForm} />
           <Route exact path="/lists" component={() => <Orders lists={this.props.lists}/>} />
           <Route exact path="/mission" component={Mission} />
