@@ -24,7 +24,9 @@ export const addList = (list) => {
         })
         .then(res => res.json())
         .then(list => dispatch({ type: "LIST_ADDED", payload: list }))
-
+        .catch((error) => {
+            console.log(error)
+        });
     }
 }
 

@@ -15,7 +15,7 @@ const Navigation = () => {
     return (
         <div className="Orders" style={{flex: 1, flexDirection: 'row'}} >
       
-         <ul class="navbar-nav flex-row"></ul>
+         <ul className="navbar-nav flex-row"></ul>
         <p></p>
         <p></p>
             <NavLink

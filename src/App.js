@@ -21,7 +21,6 @@ import Ingredients from './components/Ingredients';
 
 class App extends Component {
   componentDidMount(){
-    
     this.props.getLists()
   }
 
@@ -54,7 +53,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/menuitems" component={DisplayMenu} />
           <Route exact path="/neworder" component={DisplayForm} />
-          <Route exact path="/lists" component={() => <Orders lists={this.props.lists}/>} />
+          <Route exact path="/lists" component={() => <Orders lists={this.props.lists} id="test" />} />
           <Route exact path="/mission" component={Mission} />
           <Route exact path="/ourstory" component={OurStory} />
           <Route exact path="/ingredients" component={Ingredients} />
@@ -90,6 +89,6 @@ const mapStateToProps = state => {
     loading: state.listReducer.loading
   }
 }
-
+//mapping redux state 
 
 export default connect(mapStateToProps, {getLists, deleteList})(App);

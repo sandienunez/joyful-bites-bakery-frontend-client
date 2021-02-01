@@ -21,7 +21,7 @@ class Orders extends Component {
             .map((list, i ) => {
                 console.log(list, "hi")
 
-                return <div className = "Orders"style={{ border: "4px solid turquoise", width: "100%",
+                return <div key={i} className = "Orders" style={{ border: "4px solid turquoise", width: "100%",
                 float: 'center',
                 textAlign: 'center'
                }} 
@@ -36,7 +36,7 @@ class Orders extends Component {
                         .list_items
                         .map((item, i) => {
                             return (
-                                <div>
+                                <div key={i}>
                                     <label>Cookie order: {list.items[i].product_name}</label>
                                     <p></p>
 
