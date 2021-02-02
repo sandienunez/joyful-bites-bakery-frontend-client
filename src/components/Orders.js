@@ -64,9 +64,18 @@ class Orders extends Component {
 
 }
 
-const mapStateToProps = state => {
-    // debugger connects your db to parent to child component
-    return {lists: state.listReducer.lists, loading: state.listReducer.loading}
+const mapStateToProps = (state) => {
+// = used to extract data from store that the connected comp. needs 
+//= called every time store state changes 
+//mapStateToProps runs when: store state changes (state) => stateProps
+//mapStateToProps = returns data that connected comp. needs as props, extracts data 
+//from store 
+    return {
+        lists: state.listReducer.lists 
+// component will receive: props.lists
+//lists are available to me in state.listReducer.lists 
+    }
 }
 
 export default connect(mapStateToProps, {getLists, deleteList})(Orders);
+

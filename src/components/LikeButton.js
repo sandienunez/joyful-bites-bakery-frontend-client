@@ -3,6 +3,10 @@ import React, { useState } from "react";
  
 function LikeButton() {
   const [likesCounted, setCount] = useState(0);
+  //This JavaScript syntax = array destructuring.
+//useState method =accepts a parameter to set the
+// initial state and returns an array containing the current state
+// and a function to set the state.
 
   const incrementMe = () => {
     setCount(prevCount => prevCount + 1);

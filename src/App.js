@@ -34,7 +34,7 @@ class App extends Component {
       console.log("hi props", this.props)
       // debugger
       const lists = this.props.lists.map((list, i) => {
-         
+         //grab them out of props i now have access to bc mapState
         return <li key={i}>{list.client_name}
                   <b><p></p></b>
                 <label>Order Date: {list.date_order_made}</label> 
@@ -71,7 +71,7 @@ class App extends Component {
         <h1>Eating healthy never felt so good!</h1>
         <img src={cookie} alt="Cookie" height={700} width={500}/>
         <h2>Joyful Bites Community Order Feed: </h2>
-       <ul>{this.props.loading ? <h3>Just a moment...</h3>: lists } </ul>
+       <ul>{this.props.loading ? <h3>Just a moment......</h3>: lists } </ul>
         </header>
       </div>
       </Router> 
@@ -80,7 +80,7 @@ class App extends Component {
   }
     
 } 
-
+      // logic: see flag or render lists 
 
 const mapStateToProps = state => {
   // debugger 
@@ -90,5 +90,8 @@ const mapStateToProps = state => {
   }
 }
 //mapping redux state 
+// component will receive: props.lists, props.loading
+//loading flag = alerts me to tell me i started but i haven't finished yet 
+
 
 export default connect(mapStateToProps, {getLists, deleteList})(App);

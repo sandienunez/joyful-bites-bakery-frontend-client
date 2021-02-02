@@ -5,9 +5,6 @@ import run from '../run.gif';
 import run2 from '../run2.gif'; 
 import '../Orders.css';
 
-
-
-
 function Mission() {
     return (
         <div >
