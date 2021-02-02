@@ -13,11 +13,11 @@ class Orders extends Component {
     }
 
     handleSortClick = () => {
-        const sortedLists = this.props.lists.slice()
+        const sortedLists = this.props.lists
         switch(this.state.clicked) {
             case true: 
                 this.setState({
-                    sortedOrders: [sortedLists.sort()],
+                    sortedOrders: [sortedLists],
                     clicked: false
                     //new array 
                 }) 
