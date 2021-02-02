@@ -23,6 +23,7 @@ class App extends Component {
   componentDidMount(){
     this.props.getLists()
   }
+//comes from actions
 
   handleClick = (event) => {
     event.preventDefault()

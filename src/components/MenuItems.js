@@ -6,6 +6,9 @@ import LikeButton from '../components/LikeButton';
 import '../Orders.css';
 
 class MenuItems extends Component {
+//initialize state directly inside class = using a class instance property
+// scope is inside the class
+//state property = referenced directly
     state = {
         cookiesClicked: false,
         cupcakesClicked: false

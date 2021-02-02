@@ -12,9 +12,11 @@ export default (state = {lists: [], loading: false}, action) => {
     switch(action.type){
         case("LOADING_LISTS"):
             return {...state, loading: true}
+            //loading = fired off and fetching 
         case ("LISTS_LOADED"):
             // debugger 
             return { ...state, loading: false, lists: action.payload }
+            //grab lists from payload in actions and store it as lists 
         case ("ADDING_LIST"):
             return { ...state, loading: true }
         case ("LIST_ADDED"):

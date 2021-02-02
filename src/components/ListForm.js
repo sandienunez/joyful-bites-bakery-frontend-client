@@ -3,8 +3,6 @@ import { connect } from 'react-redux'
 import { addList } from '../actions/lists' 
 import '../ListForm.css';
 
-
-
 class ListForm extends Component {
     state = {
         client_name: "",
@@ -12,33 +10,35 @@ class ListForm extends Component {
         product_name: "Select Cookie Type",
         quantity: "",
     };
-      
 
       handleSubmit = (event) => {
         event.preventDefault()
-   
-        // debugger 
-        const list = { client_name: this.state.client_name, date_order_made: this.state.date_order_made, quantity: this.state.quantity, product_name: this.state.product_name}
-        // debugger
-
+        // = try to throw POST request so we surpress it 
+        const list = { 
+            client_name: this.state.client_name, 
+            date_order_made: this.state.date_order_made, 
+            quantity: this.state.quantity,
+             product_name: this.state.product_name
+            }
         this.props.addList(list)
-
+//use addList action and send associated dispatch and pass list object 
         this.setState({
             client_name: "",
             date_order_made: "",
             product_name: "",
             quantity: "",
-
         })
-
     }
 
     handleChange = (event) => {
         // debugger 
         this.setState({
             [event.target.name]: event.target.value
+//event.target = input field itself, grab value of input field so state
+//updates when user types anything
         })
     }
+//change state every time user types in field 
 
     render() {
         return (
@@ -58,6 +58,7 @@ class ListForm extends Component {
                     <b><p></p></b>
                    Choose Cookie flavor:
           <select value={this.state.product_name} name="product_name" onChange={this.handleChange}>
+          
           <option value="Select Cookie Type">Select Cookie Type</option>
             <option value="Almond Coconut">Almond Coconut $3.25</option>
             <option value="Chocolate Chip"> Chocolate Chip $3.00</option>
