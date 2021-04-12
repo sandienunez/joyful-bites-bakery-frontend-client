@@ -6,7 +6,7 @@ import '../Orders.css';
 const Ingredients = () => {
     return (
         <div className= "Orders">
-        <h2>List of our Whole Ingredients that are locally sourced: </h2>
+        <h2>Our Whole Ingredients list that are locally sourced: </h2>
         <li> Gluten Free Flour Blend (Oat, Tapioca, Potato Starch) 
         </li>
         <li>Coconut Sugar</li>
