@@ -23,7 +23,7 @@ const Navigation = () => {
                 exact
                 style={links}
                 activeStyle={{
-                    background: 'pink'
+                    background: 'blue'
                 }}
             > Home
             </NavLink>
