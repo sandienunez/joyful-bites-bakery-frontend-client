@@ -11,6 +11,7 @@ const Home = () => {
     return (
         <div  className="ItemForm">
             <h1>Joyful Bites Bakery</h1>
+            <h1>Home-made. Locally Sourced</h1>
             <img src={cover} alt="cover" height={550} width={1400}/>
             <img src={cookies2} alt="cookies2" height={300} width={300}/>
             <img src={spin} alt="spin" height={300} width={300}/>
