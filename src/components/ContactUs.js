@@ -17,6 +17,8 @@ const ContactUs = () => {
             <h5>🧑🏽‍🍳Head Baker, CEO, Software Engineer: Sandie Nunez   </h5>
             <h5>🎨 Creative Director: Jean Nunez </h5>
             <h5> ⚖️ Attorney: Dr. Karoline Nunez-Vaughan </h5>
+            <h5> ⚖️ Accountant: Nancy Nunez </h5>
+
             <img src={desserts} alt="desserts" height={500} width={500}/>
         </div>
     )
