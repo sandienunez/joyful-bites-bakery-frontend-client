@@ -10,7 +10,7 @@ const Ingredients = () => {
         <li> Gluten Free Flour Blend (Oat, Tapioca, Potato Starch) 
         </li>
         <li>Coconut Sugar</li>
-        <li>Coconut Oil (Sustainably Sourced, Rspo Certified)</li>
+        <li>Coconut Oil (Sustainably Sourced, Gluten-Free Certified)</li>
          <li>Dairy free home-made chocolate chunks </li>
           <li>Filtered Water</li>
            <li>Molasses</li>
