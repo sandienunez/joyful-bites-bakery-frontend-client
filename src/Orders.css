@@ -10,7 +10,7 @@
   }
   
   .Orders-header {
-    background-color: #8072fa;
+    background-color: pink;
     min-height: 10vh;
     display: flex;
     flex-direction: column;
