@@ -29,6 +29,7 @@ const Ingredients = () => {
             <li>Banana</li>
             <li>Tumeric</li>
             <li>Honey</li>
+            <li>Almond Extract</li>
 
 
             <img src={ingredients} alt="ingredients" height={500} width={1700
