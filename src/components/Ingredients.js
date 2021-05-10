@@ -31,6 +31,8 @@ const Ingredients = () => {
             <li>Honey</li>
             <li>Almond Extract</li>
             <li>Blueberries</li>
+            <li>Strawberries</li>
+
 
 
 
