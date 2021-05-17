@@ -19,6 +19,8 @@ const ContactUs = () => {
             <h5> ⚖️ Attorney: Dr. Karoline Nunez-Vaughan </h5>
             <h5> ⚖️ Accountant: Nancy Nunez </h5>
             <h5> ⚖️ Chef: Pedro Nunez </h5>
+            <h5> Manager: Timmy Nunez</h5>
+
 
 
             <img src={desserts} alt="desserts" height={500} width={500}/>
