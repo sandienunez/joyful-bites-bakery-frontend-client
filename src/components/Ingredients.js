@@ -34,6 +34,8 @@ const Ingredients = () => {
             <li>Strawberries</li>
             <li>Raspberries</li>
             <li>Pumpkin Seeds </li>
+            <li>Walnuts </li>
+
 
 
 
