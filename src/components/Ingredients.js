@@ -36,7 +36,9 @@ const Ingredients = () => {
             <li>Pumpkin Seeds </li>
             <li>Walnuts </li>
             <li>Mango </li>
-            <li>Granola </li>
+            <li>Granola </li>    
+            <li>Agave</li>
+
 
 
 
