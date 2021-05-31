@@ -38,7 +38,7 @@ const Ingredients = () => {
             <li>Mango </li>
             <li>Granola </li>    
             <li>Agave</li>
-
+            <li>Nuts</li>
 
 
 
