@@ -42,6 +42,7 @@ const Ingredients = () => {
             <li>Nutritional yeast</li>
             <li>Tofu</li>
             <li>Tahini</li>
+            <li>Dried Fruits </li>
 
 
 
