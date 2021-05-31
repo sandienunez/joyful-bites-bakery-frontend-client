@@ -40,6 +40,8 @@ const Ingredients = () => {
             <li>Agave</li>
             <li>Nuts</li>
             <li>Nutritional yeast</li>
+            <li>Tofu</li>
+
 
 
 
