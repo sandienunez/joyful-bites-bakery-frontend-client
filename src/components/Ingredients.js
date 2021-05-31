@@ -39,6 +39,9 @@ const Ingredients = () => {
             <li>Granola </li>    
             <li>Agave</li>
             <li>Nuts</li>
+            <li>Nutritional yeast</li>
+
+
 
 
 
