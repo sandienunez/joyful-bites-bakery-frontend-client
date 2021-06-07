@@ -47,6 +47,7 @@ const Ingredients = () => {
             <li>Salt </li>
             <li>Raisins </li>
             <li>Chocolate </li>
+            <li>Almond butter </li>
 
 
 
