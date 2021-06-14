@@ -43,12 +43,14 @@ const Ingredients = () => {
             <li>Tofu</li>
             <li>Tahini</li>
             <li>Dried Fruits </li>
-            <li>Spinkles </li>
+            <li>Sprinkles </li>
             <li>Salt </li>
             <li>Raisins </li>
             <li>Chocolate </li>
             <li>Almond butter </li>
             <li>Peanut butter  </li>
+            <li>Ghee butter  </li>
+            <li>Macadamias  </li>
             
 
 
