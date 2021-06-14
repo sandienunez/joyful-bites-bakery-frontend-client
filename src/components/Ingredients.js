@@ -52,6 +52,7 @@ const Ingredients = () => {
             <li>Ghee butter  </li>
             <li>Macadamias  </li>
             <li>Coconut Oil  </li>
+            <li>Sunflower Oil </li>
             
 
 
