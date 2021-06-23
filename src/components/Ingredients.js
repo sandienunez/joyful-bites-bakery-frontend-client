@@ -57,6 +57,7 @@ const Ingredients = () => {
             <li>Carrots </li>
             <li>Brazilian Nuts </li>
             <li>Poppy Seeds </li>
+            <li>Vegan Cream Cheese </li>
           
             
 
