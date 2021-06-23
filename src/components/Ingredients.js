@@ -58,6 +58,7 @@ const Ingredients = () => {
             <li>Brazilian Nuts </li>
             <li>Poppy Seeds </li>
             <li>Vegan Cream Cheese </li>
+            <li>Gluten-Free All Purpose Flour </li>
           
             
 
