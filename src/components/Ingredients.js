@@ -55,6 +55,9 @@ const Ingredients = () => {
             <li>Sunflower Oil </li>
             <li>Extra Virgin Olive Oil </li>
             <li>Carrots </li>
+            <li>Brazilian Nuts </li>
+            <li>Poppy Seeds </li>
+          
             
 
 
