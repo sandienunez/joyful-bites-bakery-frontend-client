@@ -60,6 +60,7 @@ const Ingredients = () => {
             <li>Vegan Cream Cheese </li>
             <li>Gluten-Free All Purpose Flour </li>
             <li>Blackberries</li>
+            <li>Tomatoes</li>
 
           
           
