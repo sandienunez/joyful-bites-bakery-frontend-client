@@ -61,6 +61,7 @@ const Ingredients = () => {
             <li>Gluten-Free All Purpose Flour </li>
             <li>Blackberries</li>
             <li>Tomatoes</li>
+            <li>Rosemary</li>
 
           
           
