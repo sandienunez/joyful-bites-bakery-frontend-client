@@ -67,6 +67,7 @@ const Ingredients = () => {
             <li>Watermelon </li>
             <li>Papaya</li>
             <li>Tumeric</li>
+            <li>Apples</li>
 
           
           
