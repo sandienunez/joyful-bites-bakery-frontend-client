@@ -78,6 +78,7 @@ const Ingredients = () => {
             <li>Celery</li>
             <li>Water Crest </li>
             <li>Cranberries </li>
+            <li>Carrots </li>
 
           
           
