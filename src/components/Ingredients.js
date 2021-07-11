@@ -73,6 +73,7 @@ const Ingredients = () => {
             <li>Peaches</li>
             <li>Apricots</li>
             <li>Spinach</li>
+            <li>Beets</li>
 
           
           
