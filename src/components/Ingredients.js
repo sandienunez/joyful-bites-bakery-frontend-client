@@ -90,6 +90,7 @@ const Ingredients = () => {
             <li>Ginger tumeric latte</li>
             <li>Vegan Chocolate Chip cookie </li>
             <li>Ginger tumeric scone </li>
+            <li>Bluebery scone </li>
            
 
 
