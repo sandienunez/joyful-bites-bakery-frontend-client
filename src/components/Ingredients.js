@@ -88,6 +88,7 @@ const Ingredients = () => {
             <h1>Menu</h1>
             <li>Turkey Sandwich</li>
             <li>Ginger tumeric latte</li>
+            <li>Vegan Chocolate Chip cookie </li>
            
 
 
