@@ -92,6 +92,9 @@ const Ingredients = () => {
             <li>Ginger tumeric scone </li>
             <li>Blueberry scone </li>
             <li>Fruit Salad </li>
+            <li>Eggs </li>
+         
+
            
 
 
