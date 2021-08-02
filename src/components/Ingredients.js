@@ -97,6 +97,7 @@ const Ingredients = () => {
             <li>Sausage </li>
             <li>Broccoli </li>
             <li>Kale</li>
+            <li>Garlic</li>
             
 
          
